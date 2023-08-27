@@ -31,7 +31,8 @@ Best way to install XCode might not necessarily be through the App Store
 
 ## Homebrew
 
-* Log in and download Homebrew installer
+* `xcode-select --install` Install CLT (Command Line Tools) before installing Homebrew
+* Download the new .pkg installer [here](https://github.com/Homebrew/brew/releases/latest)
 
 <br />
 
