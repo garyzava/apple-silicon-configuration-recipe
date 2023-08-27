@@ -34,8 +34,8 @@ Best way to install XCode might not necessarily be through the App Store
 * `xcode-select --install` Install CLT (Command Line Tools) before installing Homebrew
 * Download the new .pkg installer [here](https://github.com/Homebrew/brew/releases/latest)
 * Add Homebrew to your PATH run brew shellenv in your shell profile (e.g. ~/.bash_profile or ~/.zprofile)
-* 
-* `source ~/.zshrc`
+* `echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile` Update the PATH and activate it
+
 
 <br />
 
