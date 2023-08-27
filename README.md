@@ -78,3 +78,8 @@ Best way to install XCode might not necessarily be through the App Store
 <hr />
 
 ## Anaconda
+
+* Download the pkg installer for Mac M1/M2 [here](https://www.anaconda.com/)
+
+### Refereces:
+* Machine Learning test https://www.youtube.com/watch?v=_1CaUOHhI6U and https://github.com/mrdbourke/m1-machine-learning-test
