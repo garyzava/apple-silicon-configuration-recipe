@@ -12,7 +12,7 @@ Basic configuration tips to have your Mac up and running for Data Engineering ac
 * [XCode](#xcode)
 * [Homebrew](#homebrew)
 * [Anaconda](#anaconda)
-* iTerm2(#iterm2)
+* [iTerm2](#iterm2)
 
 <br />
 
@@ -87,7 +87,7 @@ Best way to install XCode might not necessarily be through the App Store
 * Machine Learning test https://www.youtube.com/watch?v=_1CaUOHhI6U and https://github.com/mrdbourke/m1-machine-learning-test
 * To do: https://c51.lbl.gov/~walkloud/work_home/personal/setting-up-my-mac/homebrew
 
-  <br />
+<br />
 
 <hr />
 
