@@ -55,7 +55,7 @@ Best way to install XCode might not necessarily be through the App Store
 * .bashrc vs. .zshrc: The .bashrc file is for interactive bash sessions. In zsh, the equivalent is .zshrc. If you have aliases, functions, or other configurations in .bashrc, you might want to transfer them to .zshrc.
 * However in OSX, ALL interactive shells are login shells hence many people do not create bashrc or zshrc.
 
-### Migrate
+### Migrate (optional)
 * `chsh -s /bin/zsh` Change from Bash to Zsh
 * `nano ~/.zprofile` Open the .zprofile file, it will empty if it didn't exist previously
 * `if [ -f ~/.bash_profile ]; then . ~/.bash_profile; fi` Add at the very bottom of the file ~/.zprofile. Everytime a Zsh session starts, it will run the bash_profile file.
