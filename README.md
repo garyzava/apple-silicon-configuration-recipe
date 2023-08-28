@@ -1,6 +1,6 @@
 # Apple Silicon Configuration Recipe For Data Engineers
 
-Basic configuration commands to have your Mac up and running for Data Engineering activities.
+Basic configuration tips to have your Mac up and running for Data Engineering activities and to work well with admin and non-admin accounts
 
 <br />
 
@@ -12,6 +12,7 @@ Basic configuration commands to have your Mac up and running for Data Engineerin
 * [XCode](#xcode)
 * [Homebrew](#homebrew)
 * [Anaconda](#anaconda)
+* iTerm2(#iterm2)
 
 <br />
 
@@ -82,6 +83,14 @@ Best way to install XCode might not necessarily be through the App Store
 * Download the pkg installer for Mac M1/M2 [here](https://www.anaconda.com/)
 * `conda config --set auto_activate_base false` Use the system environment without conda as the default. This is remove (base) from terminal prompt after updating conda
 
-### Refereces:
+### References:
 * Machine Learning test https://www.youtube.com/watch?v=_1CaUOHhI6U and https://github.com/mrdbourke/m1-machine-learning-test
 * To do: https://c51.lbl.gov/~walkloud/work_home/personal/setting-up-my-mac/homebrew
+
+  <br />
+
+<hr />
+
+## iTerm2
+
+* `brew install --cask iterm2 --appdir=~/Applications` Install iTerm2 with a non-admin will get an error about accessing /Applications (which you cannot write to without admin privileges), instead with the --appdir option it will write to ~/Applications (which you can write to). More here: https://github.com/Homebrew/homebrew-cask/issues/27431
