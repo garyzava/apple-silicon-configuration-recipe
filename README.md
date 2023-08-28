@@ -84,3 +84,4 @@ Best way to install XCode might not necessarily be through the App Store
 
 ### Refereces:
 * Machine Learning test https://www.youtube.com/watch?v=_1CaUOHhI6U and https://github.com/mrdbourke/m1-machine-learning-test
+* To do: https://c51.lbl.gov/~walkloud/work_home/personal/setting-up-my-mac/homebrew
