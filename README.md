@@ -80,6 +80,7 @@ Best way to install XCode might not necessarily be through the App Store
 ## Anaconda
 
 * Download the pkg installer for Mac M1/M2 [here](https://www.anaconda.com/)
+* `conda config --set auto_activate_base false` Use the system environment without conda as the default. This is remove (base) from terminal prompt after updating conda
 
 ### Refereces:
 * Machine Learning test https://www.youtube.com/watch?v=_1CaUOHhI6U and https://github.com/mrdbourke/m1-machine-learning-test
