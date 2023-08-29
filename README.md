@@ -44,6 +44,12 @@ Best way to install XCode might not necessarily be through the App Store
 * Add Homebrew to your PATH run brew shellenv in your shell profile (e.g. ~/.bash_profile or ~/.zprofile)
 * `echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile` Update the PATH and activate it
 
+### Install applications with a non-admin account
+
+* `brew cask install myapp --appdir=~/Applications` Install Casks to Home Directory
+
+Reference: https://gist.github.com/Justintime50/de232f266cea55faf82e9d65d5bd94c0
+
 <br />
 
 <hr />
