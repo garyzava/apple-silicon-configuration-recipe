@@ -13,6 +13,7 @@ Basic configuration tips to have your Mac up and running for Data Engineering ac
 * [Homebrew](#homebrew)
 * [Anaconda](#anaconda)
 * [iTerm2](#iterm2)
+* [pyenv](#pyenv)
 
 <br />
 
@@ -100,3 +101,19 @@ Reference: https://gist.github.com/Justintime50/de232f266cea55faf82e9d65d5bd94c0
 ## iTerm2
 
 * `brew install --cask iterm2 --appdir=~/Applications` Install iTerm2 with a non-admin will get an error about accessing /Applications (which you cannot write to without admin privileges), instead with the --appdir option it will write to ~/Applications (which you can write to). More here: https://github.com/Homebrew/homebrew-cask/issues/27431
+
+<br />
+
+<hr />
+
+## Pyenv
+
+* `brew update`
+* `brew install pyenv` Install pyenv using Homebrew
+* `echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile` Set up your shell environment for Pyenv for bash_profile step 1/3
+* `echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile` step 2/3
+* `echo 'eval "$(pyenv init -)"' >> ~/.bash_profile` step 3/3
+* `source ~/.bash_profile` Activate bash_profile file
+
+### References:
+* Pyenv github https://github.com/pyenv/pyenv
