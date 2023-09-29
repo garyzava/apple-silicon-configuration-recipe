@@ -90,6 +90,17 @@ Reference: https://gist.github.com/Justintime50/de232f266cea55faf82e9d65d5bd94c0
 * Download the pkg installer for Mac M1/M2 [here](https://www.anaconda.com/)
 * `conda config --set auto_activate_base false` Use the system environment without conda as the default. This is remove (base) from terminal prompt after updating conda
 
+### Creating an environment
+
+* `conda create --prefix ./env python=3.10` Create a virtual environment. First create a working folder
+* `conda activate ./env` Activate the conda environment
+* `conda install jupyter notebook` Install jupyter notebook server
+
+### Setting up on VS Code
+
+* Shift + Command + P
+* Select tpye "Create: New Jupyter Notebook"
+
 ### References:
 * Machine Learning test https://www.youtube.com/watch?v=_1CaUOHhI6U and https://github.com/mrdbourke/m1-machine-learning-test
 * To do: https://c51.lbl.gov/~walkloud/work_home/personal/setting-up-my-mac/homebrew
